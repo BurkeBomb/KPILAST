@@ -1,0 +1,32 @@
+{
+  "name": "era-kpi-pmb-pro",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "clsx": "2.1.1",
+    "docx": "8.5.0",
+    "jszip": "3.10.1",
+    "lucide-react": "0.451.0",
+    "next": "15.5.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "xlsx": "0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "20.10.5",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "autoprefixer": "10.4.17",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.5.6",
+    "postcss": "8.4.31",
+    "tailwindcss": "3.4.13",
+    "typescript": "5.6.3"
+  }
+}

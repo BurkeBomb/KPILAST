@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0e0e12;
+  --card: #15151b;
+  --fg: #e8e8f0;
+  --muted: #a7a7bf;
+  --accent: #6b4fd3;
+}
+[data-theme="ctrl"] { --accent: #6b4fd3; --bg: #0e0e12; --card: #15151b; }
+[data-theme="mediburgh"] { --accent: #8b5cf6; --bg: #111827; --card: #1f2937; }
+
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--fg); }
+.card { @apply bg-[color:var(--card)] rounded-2xl shadow-soft border border-white/5; }
+.kpi { @apply p-4 rounded-2xl bg-[color:var(--card)] border border-white/5; }
+.badge { @apply text-xs px-2 py-0.5 rounded-lg border border-white/10 bg-white/5; }
